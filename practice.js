@@ -38,7 +38,7 @@ let devMountainGoal = null;
 
 //Code here
 function greeting(name){
-  return `Hello, {name}`;
+  return `Hello, ${name}`;
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -47,7 +47,7 @@ function greeting(name){
 
 //Code Here
 let newGreeting = function(name){
-  return 'Hello, $(name)';
+  return `Hello, Trogdor` 
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -92,7 +92,7 @@ function nameCheck(name){
   }else if (name === 'Bryan'){
     return 'Hey Bryan!'
   }else {
-    return 'Cool name, (name)'
+    return 'Cool name, Joe'
   }
 }
 
@@ -124,11 +124,11 @@ let mathSum = add(3, 4)
 function faveColorFinder(color) {
   if (color === 'red'){
     return 'red is a great color'}
-    else if (color === green) {
+    else if (color === 'green') {
     return 'green is a solid favorite color'}
     else if (color === 'black'){
       return 'so trendy'
-    }else { 'you need to evaluate your favorite color choice'}
+    }else { return 'you need to evaluate your favorite color choice'}
   }
 //////////////////PROBLEM 13////////////////////
 
@@ -152,16 +152,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["cute", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ["duck", "saylorDuck", "rubberDuck", "realDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "squeaky", "realDuck"];
+let bathroomScope = ["duck", "nautical", "rubberDuck", "fluffy"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "nautical", "rubberDuck", "realDuck"];
+let bathtubScope = ["duck", "saylorDuck", "squeaky", "fluffy"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "fluffy"];
+let pondScope = ["duck", "nautical", "squeaky", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
@@ -177,4 +177,4 @@ age++
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-let age = 999
+const newLocal = age = 999;
